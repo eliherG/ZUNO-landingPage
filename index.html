@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <title>ZUNO</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -20,29 +21,38 @@
       <div class="menu-toggle" id="menu-toggle">☰</div>
     </nav>
 
-    <section class="hero">
-      <div class="hero-text">
-        <h1>
-          ¿Te rechazaron el crédito automotriz? En
-          <span class="text">ZUNO</span> analizamos tu perfil antes de enviarlo.
-        </h1>
-        <a href="#" class="hero-btn">Evaluar mi perfil</a>
-      </div>
+<section class="hero">
+  <div class="hero-content">
+    
+    <div class="hero-text">
+      <h1>
+        Estrena carro o moto<br />
+        <span class="text">sin complicaciones</span>
+      </h1>
 
-      <div class="hero-image">
-        <img
-          src="https://st2.depositphotos.com/2249091/7740/i/450/depositphotos_77402496-stock-photo-salesmans-hands-giving-key.jpg"
-          alt="Auto a crédito"
-        />
-      </div>
-    </section>
+      <p class="hero-sub">
+        Pagos accesibles. Proceso rápido.
+      </p>
+
+      <a href="https://wa.me/5215648764165" target="_blank" class="hero-btn">Cotizar</a>
+    </div>
+
+    <div class="hero-image">
+      <img
+        src="./images/hero.jpg"
+        alt="Entrega de vehículo"
+      />
+    </div>
+
+  </div>
+</section>
 
     <section id="porque-zuno" class="porque">
       <div class="porque-header">
-        <h2>¿Por qué hacerlo con ZUNO?</h2>
+        <h2>¿Por qué elegir ZUNO?</h2>
         <p>
-          No enviamos tu solicitud a ciegas. Primero analizamos tu perfil y lo
-          estructuramos correctamente.
+          Hacemos que estrenar carro o moto sea fácil, rápido y sin
+          complicaciones.
         </p>
       </div>
 
@@ -50,28 +60,7 @@
         <!-- ITEM 1 -->
         <div class="porque-item">
           <div class="icon-circle">
-            <!-- LUPA -->
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-            >
-              <circle cx="11" cy="11" r="7"></circle>
-              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-            </svg>
-          </div>
-          <h3>Evaluamos tu perfil antes de enviarlo</h3>
-          <p>
-            Analizamos tu situación financiera para dirigirte a la mejor opción
-            sin rechazos innecesarios.
-          </p>
-        </div>
-
-        <!-- ITEM 2 -->
-        <div class="porque-item">
-          <div class="icon-circle">
-            <!-- USUARIO -->
+            <!-- USER / ASESORÍA -->
             <svg
               viewBox="0 0 24 24"
               fill="none"
@@ -82,168 +71,58 @@
               <path d="M5.5 21a8.5 8.5 0 0 1 13 0"></path>
             </svg>
           </div>
-          <h3>Trabajamos con distintas opciones financieras</h3>
+          <h3>Atención personalizada</h3>
           <p>
-            Contamos con múltiples alianzas para encontrar la que mejor se
-            ajuste a tu perfil.
+            Te guiamos paso a paso para encontrar el carro o moto ideal para ti.
           </p>
         </div>
 
-        <!-- ITEM 3 -->
+        <!-- ITEM 2 -->
         <div class="porque-item">
           <div class="icon-circle">
-            <!-- FLECHA CRECIMIENTO -->
+            <!-- MONEY / PAGOS -->
             <svg
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
               stroke-width="2"
             >
-              <polyline points="3 17 9 11 13 15 21 7"></polyline>
-              <polyline points="14 7 21 7 21 14"></polyline>
+              <circle cx="12" cy="12" r="9"></circle>
+              <path d="M12 7v10"></path>
+              <path
+                d="M9 10c0-1.5 1.5-2.5 3-2.5s3 1 3 2.5-1 2-3 2-3 1-3 2.5S10.5 17 12 17s3-1 3-2.5"
+              ></path>
             </svg>
           </div>
-          <h3>Reducimos rechazos innecesarios</h3>
+          <h3>Planes a tu medida</h3>
+          <p>Mensualidades accesibles que se adaptan a tu presupuesto.</p>
+        </div>
+
+        <!-- ITEM 3 -->
+        <div class="porque-item">
+          <div class="icon-circle">
+            <!-- CLOCK / RAPIDEZ -->
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <circle cx="12" cy="12" r="9"></circle>
+              <polyline points="12 7 12 12 15 15"></polyline>
+            </svg>
+          </div>
+          <h3>Proceso rápido</h3>
           <p>
-            Al evaluar primero, evitamos que tu historial se vea afectado por
-            solicitudes sin viabilidad.
+            Respuesta ágil para que puedas avanzar sin vueltas ni trámites
+            complicados.
           </p>
         </div>
 
         <!-- ITEM 4 -->
         <div class="porque-item">
           <div class="icon-circle">
-            <!-- HANDSHAKE -->
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-            >
-              <path d="M4 12l4-4 4 4 4-4 4 4"></path>
-              <path d="M2 14l4 4 4-4 4 4 4-4"></path>
-            </svg>
-          </div>
-          <h3>Proceso claro y acompañado</h3>
-          <p>
-            Te explicamos cada paso y te acompañamos hasta que tengas las llaves
-            de tu auto.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="como-funciona" class="proceso">
-      <div class="proceso-header">
-        <h2>Proceso simple y transparente</h2>
-        <p>En solo 4 pasos puedes estar más cerca de tu nuevo auto.</p>
-      </div>
-
-      <div class="proceso-wrapper">
-        <div class="linea"></div>
-
-        <!-- PASO 1 -->
-        <div class="paso">
-          <div class="icon-container">
-            <span class="numero">1</span>
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.8"
-            >
-              <path
-                d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"
-              />
-              <polyline points="14 2 14 8 20 8" />
-              <polyline points="9 15 11 17 15 13" />
-            </svg>
-          </div>
-          <h3>Completa tu solicitud</h3>
-          <p>Comparte tu información básica y el auto que te interesa.</p>
-        </div>
-
-        <!-- PASO 2 -->
-        <div class="paso">
-          <div class="icon-container">
-            <span class="numero">2</span>
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.8"
-            >
-              <circle cx="12" cy="8" r="4"></circle>
-              <path d="M4 20c1.5-4 14.5-4 16 0"></path>
-            </svg>
-          </div>
-          <h3>Evaluamos tu perfil</h3>
-          <p>Analizamos tu situación sin afectar tu historial crediticio.</p>
-        </div>
-
-        <!-- PASO 3 -->
-        <div class="paso">
-          <div class="icon-container">
-            <span class="numero">3</span>
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.8"
-            >
-              <circle cx="11" cy="11" r="7"></circle>
-              <line x1="21" y1="21" x2="16.5" y2="16.5"></line>
-            </svg>
-          </div>
-          <h3>Te conectamos con la mejor opción</h3>
-          <p>Enviamos tu solicitud a la financiera más viable para ti.</p>
-        </div>
-
-        <!-- PASO 4 -->
-        <div class="paso">
-          <div class="icon-container">
-            <span class="numero">4</span>
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.8"
-            >
-              <polyline points="20 6 9 17 4 12"></polyline>
-            </svg>
-          </div>
-          <h3>Recibe tu auto</h3>
-          <p>Una vez aprobado, coordinamos la entrega de tu vehículo.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="seguridad">
-      <div class="seguridad-container">
-        <div class="seguridad-icon">
-          <div class="seguridad-circle">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-            >
-              <rect x="3" y="11" width="18" height="10" rx="2"></rect>
-              <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
-            </svg>
-          </div>
-        </div>
-
-        <div class="seguridad-content">
-          <h2>Tu información está segura</h2>
-          <p>
-            Manejamos tus datos con total confidencialidad y transparencia. No
-            cobramos por evaluar tu perfil, y solo te conectamos con opciones
-            reales y viables. ZUNO no es un banco ni financiera, somos una marca
-            comercial profesional dedicada a ayudarte.
-          </p>
-
-          <div class="seguridad-extra">
+            <!-- SHIELD / CONFIANZA -->
             <svg
               viewBox="0 0 24 24"
               fill="none"
@@ -252,11 +131,12 @@
             >
               <path d="M12 2l7 4v6c0 5-3.5 8-7 10-3.5-2-7-5-7-10V6l7-4z"></path>
             </svg>
-            <span
-              >Cumplimos con la Ley Federal de Protección de Datos Personales en
-              Posesión de Particulares.</span
-            >
           </div>
+          <h3>Confianza total</h3>
+          <p>
+            Proceso claro, sin complicaciones y con acompañamiento en todo
+            momento.
+          </p>
         </div>
       </div>
     </section>
@@ -264,17 +144,16 @@
     <section id="contacto" class="cta-final">
       <div class="cta-container">
         <h2>
-          Antes de enviar tu solicitud,<br />
-          estructuremos tu perfil correctamente.
+          Tu próximo carro o moto<br />
+          está más cerca de lo que crees
         </h2>
 
         <p class="cta-subtitle">
-          Analizamos tu capacidad de pago, historial y monto ideal para enviarte
-          únicamente a opciones viables y aumentar tu probabilidad de
-          aprobación.
+          Escríbenos por WhatsApp y conoce las opciones disponibles para ti, con
+          planes accesibles y proceso sencillo.
         </p>
 
-        <a href="#" class="cta-btn">
+        <a href="https://wa.me/5215648764165" target="_blank" class="cta-btn">
           <svg
             viewBox="0 0 24 24"
             fill="none"
@@ -283,21 +162,21 @@
           >
             <path
               d="M22 16.92V19a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 
-        19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.1 4.18 
-        2 2 0 0 1 4.08 2h2.09a2 2 0 0 1 2 1.72 
-        12.66 12.66 0 0 0 .7 2.81 
-        2 2 0 0 1-.45 2.11L7.09 9.91 
-        a16 16 0 0 0 6 6l1.27-1.27 
-        a2 2 0 0 1 2.11-.45 
-        12.66 12.66 0 0 0 2.81.7 
-        2 2 0 0 1 1.72 2z"
+          19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.1 4.18 
+          2 2 0 0 1 4.08 2h2.09a2 2 0 0 1 2 1.72 
+          12.66 12.66 0 0 0 .7 2.81 
+          2 2 0 0 1-.45 2.11L7.09 9.91 
+          a16 16 0 0 0 6 6l1.27-1.27 
+          a2 2 0 0 1 2.11-.45 
+          12.66 12.66 0 0 0 2.81.7 
+          2 2 0 0 1 1.72 2z"
             />
           </svg>
-          Quiero evaluar mi perfil
+          Cotizar por WhatsApp
         </a>
 
         <p class="cta-benefits">
-          Sin costo • Sin compromiso • Proceso confidencial
+          Atención personalizada • Respuesta rápida • Sin complicaciones
         </p>
       </div>
     </section>
@@ -349,7 +228,7 @@
 
     <!-- Botón WhatsApp fijo -->
     <a
-      href="https://wa.me/5215512345678"
+      href="https://wa.me/5215648764165"
       target="_blank"
       class="whatsapp-float"
     >
